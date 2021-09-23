@@ -31,3 +31,7 @@ curl -X POST "http://localhost:8000/subscribe/topic1" -H "accept: */*" -H "Conte
 # Publish message to topic
 
 curl -X POST "http://localhost:8000/publish/topic1" -H "accept: */*" -H "Content-Type: application/json" -d "\"hello\""
+
+## Visit the swagger link for more info
+
+http://localhost:8000/swagger-ui.html

@@ -28,6 +28,6 @@ Run java -jar subscriber-0.0.1-SNAPSHOT.jar
 
 curl -X POST "http://localhost:8000/subscribe/topic1" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"url\": \"http://localhost:9000/test1\"}"
 
-#Publish message to topic
+# Publish message to topic
 
 curl -X POST "http://localhost:8000/publish/topic1" -H "accept: */*" -H "Content-Type: application/json" -d "\"hello\""

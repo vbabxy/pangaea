@@ -14,11 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @Author: Josiah Adetayo
- * @Email: j.adetayo@bcs.org.uk, josiah.adetayo@cwg-plc.com
- * @Date: 9/22/21
- */
+
 @Slf4j
 @Service
 public class HttpClientService {

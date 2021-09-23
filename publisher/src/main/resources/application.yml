@@ -1,0 +1,8 @@
+server:
+  port: 8000
+
+project.name: pangaea-assessment
+project.artifactId: pangaea-assessment
+project.version: 1
+contact.name: Babalola Owolabi
+contact.email: babs.owolabi@gmail.com
